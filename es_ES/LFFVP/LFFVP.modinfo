@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id=" 56A4AECF-58DF-7B64-7329-53E231F2164A " version="2">
+  <Properties>
+    <Name>Localization Fix For Vox Populi</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Fix for VP data issue on non english installs</Teaser>
+    <Description>Contains prefixed strings for every language to handle wrong data.</Description>
+    <Authors>The Community</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2e779bb571fef427eb7d793390be92d4" import="0">Community Patch/CoreText.sql</File>
+    <File md5="632651bf59de1611825cadfb92845be7" import="0">Community Patch/CoreText.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Community Patch/CoreText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CoreText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>  
+</Mod>

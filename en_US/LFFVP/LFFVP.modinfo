@@ -24,11 +24,12 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="" import="0">CoreText_en_US.sql</File>
+    <File md5="6fcc0b435599aa041a13b83fa1384c30" import="0">Community Patch/CoreText.sql</File>
+    <File md5="8885c12e8c487b76857e680c2d71c44a" import="0">Community Patch/CoreText.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>CoreText_en_US.sql</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CoreText.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>  
 </Mod>
