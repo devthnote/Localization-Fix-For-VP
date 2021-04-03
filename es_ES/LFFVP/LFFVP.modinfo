@@ -19,7 +19,11 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="CSD" />
+    <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="0" maxversion="999" title="C4DF" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="EUI Compatibility (6a)" />
   </Dependencies>
   <References />
   <Blocks />
@@ -35,39 +39,81 @@
     <File md5="1897d97a32f9f9c49e591715631d24f1" import="0">Community Patch/PNModsDB.xml</File>
     <!-- <File md5="6d863ba687a82f4bbd75b1551e834d98" import="0">Community Patch/SampleEvents.xml</File> -->
     <File md5="2ccd6f4f94e17a6032115f0ed83da71c" import="0">Community Patch/TextChanges.sql</File>
+
+    <File md5="" import="0">Community Patch/CargoShipMod.sql</File>
+
+  <!-- (2) Community Balance Overhaul -->
+    <File md5="c0d890b40e800c6a1837dd1e08d2b34b" import="0">Community Balance Overhaul/ArchaelogistUIMods.xml</File>
+    <File md5="4bbd80a4e913dcef6cc0c9cf9d6f97a2" import="0">Community Balance Overhaul/BuildingText.sql</File>
+    <File md5="672595fb60a41528f1914cce06c7ff6f" import="0">Community Balance Overhaul/BuildingText.xml</File>
+    <File md5="d85321ec9d599e3278c9c1b2fed08a05" import="0">Community Balance Overhaul/CivText.sql</File>
+    <File md5="a2e4dcb0a8987112d8bfa11cd09df614" import="0">Community Balance Overhaul/Corporations.xml</File>
+    <File md5="fda5a3fa7f1df7fa77dfebb33f1987b8" import="0">Community Balance Overhaul/EventText.xml</File>
+    <File md5="69e00d2afc5281694b8f23f1e522ed55" import="0">Community Balance Overhaul/NewText.xml</File>
+    <File md5="83b3b964dfdc6073288a1e009a53ece0" import="0">Community Balance Overhaul/OtherText.sql</File>
+    <File md5="ba11b14f9e1f028578acbb2f5e53458a" import="0">Community Balance Overhaul/PolicyText.sql</File>
+    <File md5="f0e2fc4a25cfb1c438eefc3313f5bf3e" import="0">Community Balance Overhaul/PromotionText.sql</File>
+    <File md5="6447cd75dad982502190b2f097da786d" import="0">Community Balance Overhaul/ReligionText.sql</File>
+    <File md5="719345be25d986f9dfd27116f2dd5bf2" import="0">Community Balance Overhaul/TerrainText.xml</File>
+    <File md5="1328e91dcc5f77c1e946c5aea663236c" import="0">Community Balance Overhaul/TextChanges.sql</File>
+    <File md5="729a9d1938d1d7d684a10691d14ed7e4" import="0">Community Balance Overhaul/TradeUIMod.xml</File>
+    <File md5="4c26fddfc93f4f00f3257bde808a02b7" import="0">Community Balance Overhaul/UIText.sql</File>
+    <File md5="5fcd47fe02a2ff72f61e80d9175817ea" import="0">Community Balance Overhaul/UIText.xml</File>
+    <File md5="c7d6de8db7a11ceb8508ec7bdc9e3cff" import="0">Community Balance Overhaul/UnitText.sql</File>
+    <File md5="06f34f0f3a4044e407b129e8e82ae6b2" import="0">Community Balance Overhaul/UnitText.xml</File>
   </Files>
+  <!-- (6a) EUI Compatibility -->
+    <File md5="63ba5822e975b633f11eccf9e2e9ea2c" import="0">EUI Compatibility/C4DFText.sql</File>
+    <File md5="6e789f812f43be06144ea8ad22ce0471" import="0">EUI Compatibility/CorpText.sql</File>
+    <File md5="52da3e38f1069fba5abade2e9351c9fb" import="0">EUI Compatibility/CorpText.xml</File>
+    <File md5="1de2ce5b0e018ed2ca3e205ea8473f9b" import="0">EUI Compatibility/CSDText.sql</File>
+    <File md5="3173ff411700a2f6ab3d70f2899d9251" import="0">EUI Compatibility/CSDText.xml</File>
+    <File md5="72d7a182f2172e74ab7b91896a39533e" import="0">EUI Compatibility/EUINeededText.xml</File>
+    <File md5="d2ecbedae387933901cda7a479522aff" import="0">EUI Compatibility/EUIText.xml</File>
+    <File md5="65e226f6675d003368434532abce6bb8" import="0">EUI Compatibility/LuxuriesText.sql</File>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>Community Patch/CargoShipMod.sql</UpdateDatabase>
-      <UpdateDatabase>Community Patch/CityEvents.xml</UpdateDatabase>
+    <!-- (1) Community Patch -->
+      <UpdateDatabase>Community Patch/PNModsDB.xml</UpdateDatabase>
       <UpdateDatabase>Community Patch/CoreText.sql</UpdateDatabase>
       <UpdateDatabase>Community Patch/CoreText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CityEvents.xml</UpdateDatabase>      
       <UpdateDatabase>Community Patch/EventCore.xml</UpdateDatabase>
       <UpdateDatabase>Community Patch/ExtraGPs.sql</UpdateDatabase>
       <UpdateDatabase>Community Patch/GoodyHutMessages.xml</UpdateDatabase>
       <UpdateDatabase>Community Patch/PlayerEvents.xml</UpdateDatabase>
-      <UpdateDatabase>Community Patch/PNModsDB.xml</UpdateDatabase>
       <UpdateDatabase>Community Patch/TextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CargoShipMod.sql</UpdateDatabase>
 
     <!-- (2) Community Balance Overhaul -->
-      <UpdateDatabase>Community Balance Overhaul/ArchaelogistUIMods.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/NewText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/TextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/BuildingText.sql</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/BuildingText.xml</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/CivText.sql</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/Corporations.xml</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/EventText.xml</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/NewText.xml</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/OtherText.sql</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/PolicyText.sql</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/PromotionText.sql</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/ReligionText.sql</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/TerrainText.xml</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/TextChanges.sql</UpdateDatabase>
-      <UpdateDatabase>Community Balance Overhaul/TradeUIMod.xml</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/UIText.sql</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/UIText.xml</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/UnitText.sql</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/UnitText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/ReligionText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/TerrainText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/EventText.xml</UpdateDatabase>
+
+      <UpdateDatabase>Community Balance Overhaul/Corporations.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/ArchaelogistUIMods.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/TradeUIMod.xml</UpdateDatabase>
+    <!-- (6a) EUI Compatibility -->
+      <UpdateDatabase>EUI Compatibility/EUINeededText.xml</UpdateDatabase>
+      <UpdateDatabase>EUI Compatibility/C4DFText.sql</UpdateDatabase>
+      <UpdateDatabase>EUI Compatibility/EUIText.xml</UpdateDatabase>
+      <UpdateDatabase>EUI Compatibility/CorpText.sql</UpdateDatabase>
+      <UpdateDatabase>EUI Compatibility/CorpText.xml</UpdateDatabase>
+      <UpdateDatabase>EUI Compatibility/CSDText.sql</UpdateDatabase>
+      <UpdateDatabase>EUI Compatibility/CSDText.xml</UpdateDatabase>      
+      <UpdateDatabase>EUI Compatibility/LuxuriesText.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>  
 </Mod>
