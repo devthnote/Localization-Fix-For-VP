@@ -1,4 +1,4 @@
-/* (1) Community Patch/Core Files/Text/CoreText_en_US.sql */
+/* Core Files/Text/CoreText_en_US.sql */
   -- Game Options
 
   INSERT INTO Language_en_US

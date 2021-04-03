@@ -64,7 +64,7 @@
 
   -- Naval Melee Units
   UPDATE Language_es_ES
-  SET Text = 'El Trireme is the first naval unit available to civilizations in the game. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Trireme is useful for clearing barbarian ships out of home waters and for limited exploration (it cannot end its turn on Deep Ocean hexes outside of the city borders unless it is from Polynesia).'
+  SET Text = 'El Trireme es la primer unidad naval disponible to civilizations in the game. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Trireme is useful for clearing barbarian ships out of home waters and for limited exploration (it cannot end its turn on Deep Ocean hexes outside of the city borders unless it is from Polynesia).'
   WHERE Tag = 'TXT_KEY_UNIT_TRIREME_STRATEGY';
 
   -- Naval Ranged Units

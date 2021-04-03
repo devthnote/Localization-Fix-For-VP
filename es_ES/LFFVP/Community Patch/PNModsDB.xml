@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_es_ES>
+  <!-- Core Files/PNM Mods DB/API/Espionage.xml -->
+		<Row Tag="TXT_KEY_SPY_STATE_TERMINATED">
+			<Text>Eliminado!</Text>
+		</Row>
+  <!--  Core Files/PNM Mods DB/API/Religion.xml -->
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_ACTIVE_PLAYER">
+			<Text>Has mejorado tu panteón añadiendo una nueva creencia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED">
+			<Text>{1_CivName} {1: plural 1?has; 2?have;} mejorado su panteón añadiendo una nueva creencia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_UNKNOWN">
+			<Text>Una civilización desconocida ha mejorado su panteón añadiendo una nueva creencia..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_S">
+			<Text>Panteón mejorado</Text>
+		</Row>
+
+  <!-- Core Files/PNM Mods DB/BUGFIX/SpyNames.xml -->
+    <Row Tag="TXT_KEY_SPY_NAME_UNKNOWN">
+			<Text>Desconocido</Text>
+		</Row>
+
+    <Row Tag="TXT_KEY_TP_FAITH_NEXT_PROPHET_PARAM">
+			<Text>{1_Num} [ICON_PEACE] de Fé es el minimo requerido para tu próxima chance de conseguir un {2_UNITCLASS_PROPHET}.</Text>
+		</Row>
+  <!-- Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.xml -->
+		<Row Tag="TXT_KEY_RO_FAITH_TOOLTIP_PARAM">
+			<Text>Necesitas un mínimo de {1_MinFaith} [ICON_PEACE] de Fé para el próximo {2_UNITCLASS_PROPHET}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
+			<Text>Guardar para el {1_UNITCLASS_PROPHET}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET_PARAM">
+			<Text>Comprar {1_UNITCLASS_PROPHET}</Text>
+		</Row>
+  <!-- Core Files/PNM Mods DB/PROMOTIONS/UnitNaming.xml -->
+    <Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_INVULNERABIILITY">
+			<Text>Kris Defensivo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_SNEAK_ATTACK">
+			<Text>Kris Flanqueador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_HEROISM">
+			<Text>Kris Heroico</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_AMBITION">
+			<Text>Kris ofensivo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_RESTLESSNESS">
+			<Text>Kris inquieto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_RECRUITMENT">
+			<Text>Kris de regeneración</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_ENEMY_BLADE">
+			<Text>Kris Maldecido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_EVIL_SPIRITS">
+			<Text>Kris Poseído</Text>
+		</Row>
+
+  <!-- Core Files/PNM Mods DB/PROMOTIONS/VariableRecon.xml -->
+    <Row Tag="TXT_KEY_PROMOTION_RECON_SHORT_RANGE">
+			<Text>Reconocimiento de corto alcance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SHORT_RANGE_HELP">
+			<Text>Reconocimiento de corto alcance (-2 a la visibilidad).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_RECON_SHORT_RANGE">
+			<Text>Reconocimiento de corto alcance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_LONG_RANGE">
+			<Text>Reconocimiento de largo alcance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_LONG_RANGE_HELP">
+			<Text>Reconocimiento de largo alcance (+2 a la visibilidad).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_RECON_LONG_RANGE">
+			<Text>Reconocimiento de largo alcance</Text>
+		</Row>
+	</Language_es_ES>
+</GameData>

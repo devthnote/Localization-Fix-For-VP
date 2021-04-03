@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Core Files/PNM Mods DB/BUGFIX/GoodyHutMessages.xml -->
+<GameData>
+	<Language_es_ES>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_GOLD"/>
+			<Set>
+				<Text>En las ruinas encontraste los tesoros de una antigua civilización!</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_PROPHET_FAITH"/>
+			<Set>
+				<Text>Encontraste una comunidad religiosa secreta. El predicador anuncia la llegada de un gran profeta.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_FAITH"/>
+			<Set>
+				<Text>Haz encontrado un antiguo oráculo. La sacerdotisa te ha bendecido con una revelación divina.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_CULTURE"/>
+			<Set>
+				<Text>¡Has encontrado artefactos culturales que asombran a tus ciudadanos!</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_RECEIVED_GOLD"/>
+			<Set>
+				<Text>[SPACE]Has recibido {1_Num} [ICON_GOLD] de Oro!</Text>
+			</Set>
+		</Update>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_CULTURE">
+			<Text>[SPACE]Has recibido {1_Num} [ICON_CULTURE] de Cultura!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_FAITH">
+			<Text>[SPACE]Has recibido {1_Num} [ICON_PEACE] de Fé!</Text>
+		</Row>
+	</Language_es_ES>
+</GameData>

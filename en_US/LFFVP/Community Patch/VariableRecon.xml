@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!-- Core Files/PNM Mods DB/PROMOTIONS/VariableRecon.xml -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SHORT_RANGE">
+			<Text>Short Range Recon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SHORT_RANGE_HELP">
+			<Text>Short Range Recon (-2 visibility).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_RECON_SHORT_RANGE">
+			<Text>Short Range Recon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_LONG_RANGE">
+			<Text>Long Range Recon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_LONG_RANGE_HELP">
+			<Text>Long Range Recon (+2 visibility).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_RECON_LONG_RANGE">
+			<Text>Long Range Recon</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>
