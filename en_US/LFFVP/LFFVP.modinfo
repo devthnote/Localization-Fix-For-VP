@@ -25,6 +25,18 @@
   <Blocks />
   <Actions>
     <OnModActivated>
+    <!-- (1) Community Patch -->
+      <UpdateDatabase>Community Patch/CargoShipMod.sql</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CityEvents.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CoreText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Patch/CoreText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/EventCore.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/ExtraGPs.sql</UpdateDatabase>
+      <UpdateDatabase>Community Patch/GoodyHutMessages.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/PlayerEvents.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/PNModsDB.xml</UpdateDatabase>
+      <UpdateDatabase>Community Patch/TextChanges.sql</UpdateDatabase>
+
     <!-- (2) Community Balance Overhaul -->
       <UpdateDatabase>Community Balance Overhaul/ArchaelogistUIMods.xml</UpdateDatabase>
       <UpdateDatabase>Community Balance Overhaul/BuildingText.sql</UpdateDatabase>

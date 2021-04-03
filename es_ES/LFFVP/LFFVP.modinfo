@@ -48,6 +48,26 @@
       <UpdateDatabase>Community Patch/PlayerEvents.xml</UpdateDatabase>
       <UpdateDatabase>Community Patch/PNModsDB.xml</UpdateDatabase>
       <UpdateDatabase>Community Patch/TextChanges.sql</UpdateDatabase>
+
+    <!-- (2) Community Balance Overhaul -->
+      <UpdateDatabase>Community Balance Overhaul/ArchaelogistUIMods.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/BuildingText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/BuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/CivText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/Corporations.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/EventText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/NewText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/OtherText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/PolicyText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/PromotionText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/ReligionText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/TerrainText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/TextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/TradeUIMod.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/UIText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/UIText.xml</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/UnitText.sql</UpdateDatabase>
+      <UpdateDatabase>Community Balance Overhaul/UnitText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>  
 </Mod>
