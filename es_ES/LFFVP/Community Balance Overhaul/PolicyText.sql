@@ -6,21 +6,21 @@
 -- Clausewitz's Legacy
 
 UPDATE Language_es_ES
-SET Text = '[COLOR_POSITIVE_TEXT]Martial Spirit[ENDCOLOR]: +25% Attack Bonus for 50 turns, scaling with Gamespeed. [ICON_WAR] War Weariness reduced by 25%, and [ICON_RAZING] Razing Speed is doubled.'
+SET Text = '[COLOR_POSITIVE_TEXT]Espíritu Marcial[ENDCOLOR]: + 25% de bonificación de ataque durante 50 turnos, escalando con la velocidad del juego . [ICON_WAR] El Hastío de Guerra se reduce un 25%, y [ICON_RAZING] se duplica la velocidad al arrasar ciudades.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_es_ES
-SET Text = 'Martial Spirit'
+SET Text = 'Espíritu Marcial'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_es_ES
-SET Text = 'Martial spirit represents the prevasiveness of competition and combat-oriented sports within a society. Today, athletes usually fight one-on-one, but may still use various skill sets such as strikes in boxing that only allows punching, taekwondo where punches and kicks are the focus or muay thai and burmese boxing that also allow the use of elbows and knees. There are also grappling based sports that may concentrate on obtaining a superior position as in freestyle or Collegiate wrestling using throws such as in judo and Greco-Roman wrestling the use of submissions as in Brazilian jiu-jitsu. Modern mixed martial arts competitions are similar to the historic Greek Olympic sport of pankration and allow a wide range of both striking and grappling techniques. Combat sports may also be armed and the athletes compete using weapons, such as types of sword in western fencing (the foil, �p�e and saber) and kendo (shinai). Modern combat sports may also wear complex armour, like SCA Heavy Combat and kendo. In Gatka and Modern Arnis sticks are used, sometimes representing knives and swords.'
+SET Text = 'El Espíritu Marcial representa el predominio de la competición y los deportes orientados al combate dentro de una sociedad. Hoy en día, los atletas generalmente pelean uno a uno, pero aún pueden usar varios conjuntos de habilidades como los strikes en el boxeo que solo permiten el puñetazo, el taekwondo donde los golpes y las patadas son el foco o el muay thai y el boxeo birmano que también permite el uso de codos y rodillas También hay deportes basados en el agarre que pueden concentrarse en obtener una posición superior como en el estilo libre o la lucha colegial usando lanzamientos como en el judo y la lucha grecorromana el uso de sumisiones como en el jiu-jitsu brasileño. Las competiciones modernas de artes marciales mixtas son similares al histórico deporte olímpico griego de pankration y permiten una amplia gama de técnicas de ataque y agarre. Los deportes de combate también pueden estar armados y los atletas compiten usando armas, como tipos de espada en la esgrima occidental (florete y sable) y kendo (shinai). Los deportes de combate modernos también pueden usar armaduras complejas, como el Combate pesado SCA  y el kendo. En Gatka y Modern Arnis se utilizan palos, que a veces representan cuchillos y espadas. '
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Cult of Personality
 
 UPDATE Language_es_ES
-SET Text = '[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR]: +50% Tourism [ICON_TOURISM] to civilizations fighting a common enemy. 50% of your highest Warscore counts as a [ICON_TOURISM] Tourism Modifier with all Civilizations. Free [ICON_GREAT_PEOPLE] Great Person of your choice.'
+SET Text = '[COLOR_POSITIVE_TEXT]Culto de Personalidad[ENDCOLOR]: +50% Turismo [ICON_TOURISM] to civilizations fighting a common enemy. 50% of your highest Warscore counts as a [ICON_TOURISM] Tourism Modifier with all Civilizations. Free [ICON_GREAT_PEOPLE] Great Person of your choice.'
 WHERE Tag = 'TXT_KEY_POLICY_CULT_PERSONALITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Elite Forces

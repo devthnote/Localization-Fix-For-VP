@@ -6,33 +6,33 @@
 			<Text>Public Works</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_HELP">
-			<Text>Increases [ICON_HAPPINESS_1] Happiness in the City by 1, reduces the city's Empire Needs modifier by 10%, and reduces [ICON_HAPPINESS_3] Unhappiness Need Modifiers for [ICON_FOOD]/[ICON_PRODUCTION] Distress, [ICON_GOLD] Poverty, [ICON_RESEARCH] Illiteracy, [ICON_CULTURE] Boredom, and [ICON_PEACE] Religious Unrest by 15% in the City.[NEWLINE][NEWLINE]Is a repeatable project, however the [ICON_PRODUCTION] Production cost scales by +100 [ICON_PRODUCTION] Production every Era, and +100 [ICON_PRODUCTION] Production every time you construct this project in this City.[NEWLINE][NEWLINE]Increases the City's [ICON_GOLD] Gold maintenance by 2 every time it is constructed.</Text>
+			<Text>Incrementa la [ICON_HAPPINESS_1] Felicidad en la ciudad a 1, reduce el modificador de Necesidades del Imperio en 10%, y reduce la [ICON_HAPPINESS_3] Infelicidad  del modificador de necesidades por [ICON_FOOD]/[ICON_PRODUCTION] Agotamiento, [ICON_GOLD] Pobreza, [ICON_RESEARCH] Analfabetismo, [ICON_CULTURE] Aburrimiento, y [ICON_PEACE] Agitación religiosa al 15% en la ciudad.[NEWLINE][NEWLINE]Es un proyecto repetible, sin embargo, el costo de [ICON_PRODUCTION] Producción escala en +100 [ICON_PRODUCTION] producción cada era, y +100 [ICON_PRODUCTION] Producción cada vez que construyes este proyecto en la ciudad..[NEWLINE][NEWLINE]Incrementa el mantenimiento de [ICON_GOLD] Oro a 2 cada vez que se construye.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_PEDIA">
-			<Text>Public works are a broad category of infrastructure projects, financed and constructed by the government, for recreational, employment, and health and safety uses in the greater community. They include public buildings (municipal buildings, schools, hospitals), transport infrastructure (roads, railroads, bridges, pipelines, canals, ports, airports), public spaces (public squares, parks, beaches), public services (water supply and treatment, sewage treatment, electrical grid, dams), and other, usually long-term, physical assets and facilities. Though often interchangeable with public infrastructure and public capital, public works does not necessarily carry an economic component, thereby being a broader term.</Text>
+			<Text>Las obras públicas son una amplia categoría de proyectos de infraestructura, financiados y construidos por el gobierno, para usos recreativos, de empleo, salud y seguridad en la comunidad. Incluyen edificios públicos (edificios municipales, escuelas, hospitales), infraestructura de transporte (carreteras, ferrocarriles, puentes, tuberías, canales, puertos, aeropuertos), espacios públicos (plazas públicas, parques, playas), servicios públicos (suministro y tratamiento de agua ,Tratamiento de aguas residuales, suministro eléctrico, represas), y otros activos físicos e instalaciones generalmente de largo plazo. Aunque a menudo intercambiables con infraestructura pública y capital público, las obras públicas no necesariamente llevan un componente económico, por lo que es un término más amplio.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_STRATEGY">
-			<Text>Construct this Project in cities that are suffering from chronic [ICON_HAPPINESS_3] Unhappiness caused by Needs, and you have run out options to deal with it. Watch out, however, as this project becomes more expensive to build every time you construct it in this City, and it costs Gold to upkeep. Use this as a last resort, not as a first solution, when dealing with Unhappiness from Needs.</Text>
+			<Text>Construye este proyecto en ciudades que sufren de [ICON_HAPPINESS_3] Infelicidad crónica causado por las necesidades, y te has quedado sin opciones para manejarla. Sin embargo, tenga cuidado, ya que este proyecto se vuelve más caro para construir cada vez que se construye en esta ciudad, y aumenta su mantenimiento de oro. Use esto como último recurso, no como una primera solución, cuando se trata de infelicidad proveniente de las necesidades.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_THEMING_BONUS_ROYAL_LIBRARY">
-			<Text>Knowledge from Around the World</Text>
+			<Text>Conocimiento alrededor del mundo</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_THEMING_BONUS_HELP">
-			<Text>To maximize your bonus, make sure both Great Works are from foreign Civilizations</Text>
+			<Text>Para maximizar su bonificación, asegúrese de que ambas grandes obras sean de civilizaciones extranjeras.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GA_BONUS">
-			<Text>{1_Num} [ICON_TOURISM] Tourism from {2_Num}% of the [ICON_CULTURE] Culture of your [ICON_CAPITAL] Capital</Text>
+			<Text>{1_Num} [ICON_TOURISM] {2_Num}% Turismo proveniente de la [ICON_CULTURE] Cultura de la [ICON_CAPITAL] Capital</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT">
-			<Text>Rialto District</Text>
+			<Text>Distrito de Rialto</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_RIALTO_DISTRICT_TEXT">
-			<Text> The Rialto is and has been for many centuries the financial and commercial centre of Venice. It is an area of the San Polo sestiere of Venice, Italy, also known for its markets and for the Rialto Bridge across the Grand Canal. The area was settled by the ninth century, when a small area in the middle of the Realtine Islands on either side of the Rio Businiacus was known as the Rivoaltus, or "high bank". Eventually the Businiacus became known as the Grand Canal, and the district the Rialto, referring only to the area on the left bank.</Text>
+			<Text> El distrito de Rialto es y ha sido durante muchos siglos, el centro financiero y comercial de Venecia. Es un área de San Polo Sestiere de Venecia, Italia, también conocida por sus mercados y por el puente de Rialto en el Gran Canal. El área fue ocupada en el siglo IX, cuando un área pequeña en medio de las islas Realtinas a ambos lados del Río Businiacus fue conocida como el Rivoaltus, o "Alto Banco". Eventualmente, el Businiacus se conoció como el Gran Canal, y el Distrito de Rialto, se refiere solo al área de la orilla izquierda.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_STRATEGY">
-			<Text>Unique Venetian building, only buildable in Venice's Capital. This building boosts the value of Trade Routes to and from the City, and generates 1 World Congress Delegate for every 100 Gold Per Turn that Venice produces, up to 25% of all City-States ever alive in the game (minimum of 1 Delegate). In addition, this building reduces the Gold cost of purchasing Units and Buildings in the City by 10%. Cannot be constructed if the Arsenale di Venezia or Murano Glassworks are present in the City.</Text>
+			<Text>Edificio único de Venecia, solo se puede construir en la capital de Venecia. Este edificio aumenta el valor de las rutas comerciales hacia y desde la ciudad, y genera 1 delegado para el congreso mundial por cada 100 de oro que Venecia produzca por turno, hasta el 25% de todas las Ciudades Estado que existen en el juego. (Mínimo 1 delegado). Además, este edificio reduce el costo de Oro al comprar unidades y edificios en la ciudad en un 10%.. No se puede construir si el Arsenale Di Venezia o la Cristalería de Murano están presentes en la ciudad.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
 			<Text>Unique Building for Venice. Cost of [ICON_GOLD] Gold purchases in all Cities reduced by 10% (15% in [ICON_CAPITAL] Capital). Provides 1 [COLOR_POSITIVE_TEXT]Additional[ENDCOLOR] [ICON_DIPLOMAT] Delegate in the World Congress for every 100 [ICON_GOLD] Gold Per Turn produced (caps at 25% of all [ICON_CITY_STATE] City-States ever alive).[NEWLINE][NEWLINE]Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +3 [ICON_GOLD] Gold for the City, and +3 [ICON_GOLD] Gold for [ICON_INTERNATIONAL_TRADE] Trade Route owner.[NEWLINE][NEWLINE]Requires Piazza San Marco in City. The [ICON_PRODUCTION] Production Cost and [ICON_CITIZEN] Population Requirements increase based on the number of Cities you own. Cannot be constructed if the [COLOR_NEGATIVE_TEXT]Arsenale di Venezia[ENDCOLOR] or [COLOR_NEGATIVE_TEXT]Murano Glassworks[ENDCOLOR] are present in the City.</Text>

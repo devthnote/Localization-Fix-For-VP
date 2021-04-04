@@ -1,39 +1,39 @@
 /* Community Balance Overhaul/Balance Changes/Text/es_ES/BuildingText.sql */
   -- added Recycling Center
   UPDATE Language_es_ES
-  SET Text = 'Proporciona 2 [ICON_RES_ALUMINUM] Aluminio.[NEWLINE][NEWLINE]Maximum of 5 of these Buildings in your Empire.'
+  SET Text = 'Proporciona 2 [ICON_RES_ALUMINUM] Aluminio.[NEWLINE][NEWLINE]Máximo de 5 de estos edificios en tu imperio.'
   WHERE Tag = 'TXT_KEY_BUILDING_RECYCLING_CENTER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = '+1 [ICON_RESEARCH] Science for every 3 [ICON_CITIZEN] Citizens in the City. Contains 1 slot for a [ICON_GREAT_WORK] Great Work of Art. 1 Specialist in this City no longer produces [ICON_HAPPINESS_3] Unhappiness from Urbanization.[NEWLINE][NEWLINE]When one of the following [COLOR_POSITIVE_TEXT]Historic Events[ENDCOLOR] is completed, receive a [ICON_TOURISM] Tourism boost with all known Civs based on your recent [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output:[NEWLINE][ICON_BULLET] Earn a [ICON_GREAT_PEOPLE] Great Person[NEWLINE][ICON_BULLET] Build a [ICON_GOLDEN_AGE] World Wonder[NEWLINE][ICON_BULLET] Win a [ICON_WAR] War (Warscore 25+)[NEWLINE][ICON_BULLET] Enter a new [ICON_RESEARCH] Era[NEWLINE][NEWLINE][ICON_CONNECTED] Connecting other Cities to the [ICON_CAPITAL] Capital by Road will produce additional [ICON_GOLD] Gold.'
+  SET Text = '+1 [ICON_RESEARCH] Ciencia por cada 3 [ICON_CITIZEN] Ciudadanos en la ciudad. Contiene 1 espacio para una [ICON_GREAT_WORK] Gran Obra de Arte. 1 especialista en esta ciudad ya no produce [ICON_HAPPINESS_3] Infelicidad por Urbanización.[NEWLINE][NEWLINE]Cuando uno de los siguientes [COLOR_POSITIVE_TEXT]Eventos Históricos[ENDCOLOR] se completa, recibe una bonificación de [ICON_TOURISM] Turismo con todas las civilizaciones conocidas, basado en la  [ICON_CULTURE] Cultura reciente y la salida de [ICON_TOURISM] Turismo:[NEWLINE][ICON_BULLET] Obtener un [ICON_GREAT_PEOPLE] Gran Personaje[NEWLINE][ICON_BULLET] Construir una  [ICON_GOLDEN_AGE] Maravilla del Mundo[NEWLINE][ICON_BULLET] Ganar una [ICON_WAR] Guerra (Puntyuación de Guerra +25)[NEWLINE][ICON_BULLET] Entrar en una nueva [ICON_RESEARCH] Era[NEWLINE][NEWLINE][ICON_CONNECTED] Conectar una ciudad a la [ICON_CAPITAL] Capital por caminos producirá [ICON_GOLD] Oro adicional.'
   WHERE Tag = 'TXT_KEY_BUILDING_PALACE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = '+25 [ICON_FOOD] Food when completed. 15% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.[NEWLINE][NEWLINE]Nearby [ICON_RES_WHEAT] Wheat: +1 [ICON_FOOD] Food.[NEWLINE]Nearby [ICON_RES_BANANA] Bananas: +1 [ICON_FOOD] Food.[NEWLINE]Nearby [ICON_RES_DEER] Deer: +1 [ICON_FOOD] Food.[NEWLINE]Nearby [ICON_RES_BISON] Bison: +1 [ICON_FOOD] Food.'
+  SET Text = '+25 [ICON_FOOD] Alimentos cuando se completa. Se transporta un 15% de [ICON_FOOD] alimentos cada vez que nace un nuevo [ICON_CITIZEN] Ciudadano.[NEWLINE][NEWLINE]Permite mover [ICON_FOOD] Alimentos de esta ciudad através de las rutas comerciales dentro de tu civilización.[NEWLINE][NEWLINE][ICON_RES_WHEAT] Trigo: +1 [ICON_FOOD] Alimentos.[NEWLINE] [ICON_RES_BANANA] Plátanos: +1 [ICON_FOOD] Alimentos.[NEWLINE][ICON_RES_DEER] Ciervos: +1 [ICON_FOOD] Alimentos.[NEWLINE][ICON_RES_BISON] Bisontes: +1 [ICON_FOOD] Alimentos.'
   WHERE Tag = 'TXT_KEY_BUILDING_GRANARY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = '+1 [ICON_PRODUCTION] Production for every 4 [ICON_CITIZEN] Citizens in the City.[NEWLINE][NEWLINE]Can only be built in a City next to a River.'
+  SET Text = '+1 [ICON_PRODUCTION] Producción por cada 4 [ICON_CITIZEN] Ciudadanos en la ciudad.[NEWLINE][NEWLINE]Solo se puede construir en una ciudad junto a un río..'
   WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = 'The Water Mill can only be constructed in a city located next to a river. The Water Mill increases the city''s [ICON_PRODUCTION] Production more efficiently (per Citizen in the City) than the Well.'
+  SET Text = 'El molino de agua solo se puede construir en una ciudad ubicada junto a un río. El molino de agua aumenta la [ICON_PRODUCTION] Producción de la ciudad de manera más eficiente (por ciudadano en la ciudad) que el pozo.'
   WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = '15% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born, and +25% of the [ICON_PRODUCTION] Production of the City is added to the City''s current [ICON_PRODUCTION] Production. +2 [ICON_FOOD] Food on Lakes and Oases worked by this City.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_GOLD] Poverty.'
+  SET Text = '15% de los [ICON_FOOD] Alimentos is transportado cada vez que nace un nuevo [ICON_CITIZEN] Ciudadano, y +25% de la [ICON_PRODUCTION] La producción de la ciudad se agrega a la [ICON_PRODUCTION] Producción actual. +2 [ICON_FOOD] Alimentos en lagos y oasis trabajados por esta ciudad.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Infelicidad por [ICON_GOLD] Pobreza.'
   WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = 'The Aqueduct decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 15%. Build Aqueducts in cities that you want to grow large over time.'
+  SET Text = 'El acueducto disminuye la cantidad de [ICON_FOOD] Alimentos que una ciudad necesita para crecer en tamaño al 15%. Construye acueductos en las ciudades que deseas que crezcan con el tiempo.'
   WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = '+2 [ICON_CITIZEN] Population when completed. 15% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. Scientist, Merchant, and Engineer Specialists in the City produce +2 of their base Yield.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Unhappiness from [ICON_GOLD] Poverty.'
+  SET Text = '+2 [ICON_CITIZEN] Población cuando se completa. 15% de [ICON_FOOD] Alimentos es transportado cada vez que nace un nuevo [ICON_CITIZEN] Ciudadano. Los especialistas científicos, mercaderes e ingenieros en la ciudad producen +2 de su rendimiento base.[NEWLINE][NEWLINE]-1 [ICON_HAPPINESS_3] Infelicidad por [ICON_GOLD] Pobreza.'
   WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES
-  SET Text = 'The Medical Lab is a late-game building which decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 15% and boosts the City''s Science production from specialists. The city needs to have a Hospital in order to construct the Medical Lab.'
+  SET Text = 'El laboratorio médico es un edificio del juego tardío que disminuye la cantidad de [ICON_FOOD] Alimentos que una ciudad necesita para aumentar de tamaño al 15% y aumenta la producción de Ciencia en la ciudad de los Especialistas. La ciudad necesita tener un hospital para construir el laboratorio médico.'
   WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES

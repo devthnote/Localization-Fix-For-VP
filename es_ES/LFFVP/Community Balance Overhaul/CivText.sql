@@ -3,19 +3,19 @@
 -- America
 --------------------
 UPDATE Language_es_ES
-SET Text = 'All Military Land Units have +1 Sight. 50% discount when purchasing tiles, and tile purchases grant +20 [ICON_PRODUCTION] Production, scaling with Era. May purchase tiles owned by other Civilizations.'
+SET Text = 'Todas las unidades militares terrestres tienen +1 a la visión. 50% de descuento en la compra de casillas, y la compra de estas otorga +20 [ICON_PRODUCTION] de producción, escalando con la Era. Puede comprar casillas pertenecientes a otras civilizaciones.'
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_es_ES
-SET Text = 'The Minuteman is the American unique unit, replacing the Musketman. The Minuteman can move through difficult terrain without penalty, gains Golden Age Points from destroying units, and can shoot up to 2 hexes away.'
+SET Text = 'El Minuteman (hombre de los minutos) es la unidad única estadounidense, que reemplaza al Mosquete. El Minuteman puede moverse a través de terrenos difíciles sin penalización, gana puntos de la Edad de Oro al destruir unidades y puede disparar hasta 2 casillas de distancia.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_es_ES
-SET Text = 'One of the first ranged gunpowder units of the game. Only the Americans may build it. This unit ignores terrain costs, and gains Golden Age Points from destroying units, unlike the Musketman which it replaces.'
+SET Text = 'Una de las primeras unidades de pólvora a distancia del juego. Solo los estadounidenses pueden construirla. Esta unidad ignora los costos de terreno y gana puntos hacia la Edad de Oro al destruir unidades, a diferencia del Mosquete al que reemplaza.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MINUTEMAN' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_es_ES
-SET Text = 'The B17 Bomber is unique to the Freedom Ideology. Requires the Their Finest Hour Tenet to be unlocked. It is similar to the bomber, but it is more difficult for enemy anti-aircraft and fighters to target. The B17 also receives a bonus when attacking enemy cities. Unlike the bomber, its range is 10. See the rules on Aircraft for more details.'
+SET Text = 'El bombardero B17 es exclusivo de la ideología de la libertad. Requiere que el principio de "La mejor hora" se desbloquee. Es similar al bombardero, pero es más difícil para los anti-aéreos enemigos y los combatientes de apuntar. El B17 también recibe una bonificación al atacar a ciudades enemigas. A diferencia del Bombardero, su rango es de 10. Mira las reglas de unidades aéreas para más información'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_B17_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_es_ES
