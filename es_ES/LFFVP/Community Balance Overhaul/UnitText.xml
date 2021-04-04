@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- /* Community Balance Overhaul/Balance Changes/Text/en_US/UnitText.xml -->
 <GameData>
-	<Language_>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT">
 			<Text>Hovering Unit Embarked</Text>
 		</Row>
@@ -992,5 +992,5 @@
 		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
 			<Text>Missionary Units</Text>
 		</Row>
-	</Language_>
+	</Language_es_ES>
 </GameData>

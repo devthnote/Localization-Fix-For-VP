@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- /* Community Balance Overhaul/Balance Changes/Text/en_US/TerrainText.sql */ -->
 <GameData>
-	<Language_>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
 			<Text>Eki</Text>
 			<Gender>neuter:an</Gender>
@@ -304,5 +304,5 @@
 		<Row Tag="TXT_KEY_MONOPOLIES_TT">
 			<Text>Global Resource Monopolies are achieved when you control over 50% of a Luxury or Strategic Resource. This value can exceed 100% if you produce more of a Resource than exists on the Map. More than one Civilization can, therefore, have a Global Monopoly (though this is quite rare).</Text>
 		</Row>
-	</Language_>
+	</Language_es_ES>
 </GameData>

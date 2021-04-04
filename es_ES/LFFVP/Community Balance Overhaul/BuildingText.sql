@@ -1,7 +1,7 @@
 /* Community Balance Overhaul/Balance Changes/Text/es_ES/BuildingText.sql */
   -- added Recycling Center
   UPDATE Language_es_ES
-  SET Text = 'Provides 2 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]Maximum of 5 of these Buildings in your Empire.'
+  SET Text = 'Proporciona 2 [ICON_RES_ALUMINUM] Aluminio.[NEWLINE][NEWLINE]Maximum of 5 of these Buildings in your Empire.'
   WHERE Tag = 'TXT_KEY_BUILDING_RECYCLING_CENTER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
   UPDATE Language_es_ES

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 <!-- Community Balance Overhaul/Modular Elements/TradeUIMod/GlobalCityStatesGifts.xml -->
-  <Language_>
+  <Language_es_ES>
 		<Update>
 			<Where Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL"/>
 			<Set Gender="neuter:an"/>
@@ -58,9 +58,9 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_UNKNOWN">
 			<Text>[COLOR_WARNING_TEXT]THIS SHOULD NEVER HAPPEN![ENDCOLOR] - MINOR_CIV_CONTACT_BONUS_UNKNOWN</Text>
 		</Row>
-	</Language_>
+	</Language_es_ES>
 <!-- Community Balance Overhaul/Modular Elements/TradeUIMod/UITradeRoutesEnhancements.xml -->
-	<Language_>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_TRO_LOCATE_RECALL_TT">
 			<Text>Click to view Unit</Text>
 		</Row>
@@ -112,5 +112,5 @@
 		<Row Tag="TXT_KEY_WORKSHOP">
 			<Text>[ICON_BULLET] Allows Production Routes</Text>
 		</Row>
-	</Language_>
+	</Language_es_ES>
 </GameData>

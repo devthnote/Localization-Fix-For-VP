@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 <!-- Community Balance Overhaul/Modular Elements/Corporations/Text/en_US/CorporationOverviewText.xml -->
-	<Language_>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_CPO">
 			<Text>Corporations &amp; Monopolies</Text>
 		</Row>
@@ -255,9 +255,9 @@
 		<Row Tag="TXT_KEY_CPO_TRADE_ROUTE_BONUS">
 			<Text>Trade Route</Text>
 		</Row>
-	</Language_>
+	</Language_es_ES>
 <!-- Community Balance Overhaul/Modular Elements/Corporations/Text/en_US/CorpText.xml -->
-  <Language_>
+  <Language_es_ES>
     <Row Tag="TXT_KEY_PEDIA_CATEGORY_17_LABEL">
       <Text>Corporations</Text>
     </Row>
@@ -1204,5 +1204,5 @@
     <Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HELP">
       <Text>+3% [ICON_GOLDEN_AGE] Golden Age Length Modifier. +15% [ICON_GREAT_PEOPLE] Great Person rate in City, and an additional +10% for every Civilized Jeweler's Franchise (up to your Franchise Limit).[NEWLINE][NEWLINE]Every Trade Route from this City to a foreign City with a Civilized Jewelers Franchise increases this City's [ICON_GOLD] Gold rate by +10%.</Text>
     </Row>
-  </Language_>
+  </Language_es_ES>
 </GameData>

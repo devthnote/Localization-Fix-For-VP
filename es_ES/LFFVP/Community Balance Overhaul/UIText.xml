@@ -2,7 +2,7 @@
 <!-- /* Community Balance Overhaul/Balance Changes/Text/en_US/UIText.xml -->
 <GameData>
 	<!-- Historic Event Info-->
-	<Language_>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT">
 			<Text>Historic Events</Text>
 		</Row>
@@ -1416,8 +1416,8 @@
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
 			<Text>Your {@1_UnitName} encountered no resistance, and attacked enemy air and anti-air units on the ground!</Text>
 		</Row>
-	</Language_>
-	<Language_>
+	</Language_es_ES>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">
 			<Text>Cattaro</Text>
 		</Row>
@@ -1454,5 +1454,5 @@
 		<Row Tag="TXT_KEY_CITY_NAME_UDINE">
 			<Text>Udine</Text>
 		</Row>
-	</Language_>
+	</Language_es_ES>
 </GameData>

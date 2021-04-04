@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Community Balance Overhaul/Balance Changes/Text/en_US/BuildingText.xml -->
 <GameData>
-	<Language_>
+	<Language_es_ES>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS">
 			<Text>Public Works</Text>
 		</Row>
@@ -750,5 +750,5 @@
 		</Row>
 
 		
-	</Language_>
+	</Language_es_ES>
 </GameData>
