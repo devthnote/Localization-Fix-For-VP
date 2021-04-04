@@ -1,8 +1,9 @@
 # Localization fix for vox populi
 **Latest version: v2 Alpha for Vox Populi V12.1.3**
+
 Fix all wrong data from CBO for non-english installs.
 
-**note** This is not a translation mod, only will fix all wrong data from policies, buildings, wonders , tech, civilizations, leaders and units that has been rebalanced by CBO. 
+**Important Note:** This is not a translation mod, only will fix all wrong data from policies, buildings, wonders , tech, civilizations, leaders and units that has been rebalanced by CBO. 
 
 
 ### Requeriments
