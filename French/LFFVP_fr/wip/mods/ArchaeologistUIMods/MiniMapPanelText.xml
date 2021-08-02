@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!-- (2) Community Balance Overhaul/Modular Elements/ArchaeologistUIMods/MiniMapPanelText.xml -->
+	<Language_fr_FR>
+		<Replace Tag="TXT_KEY_PREVIOUS_ITEM_TT">
+			<Text>Centre map on previous item</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NEXT_ITEM_TT">
+			<Text>Centre map on next item</Text>
+		</Replace>
+	</Language_fr_FR>
+</GameData>

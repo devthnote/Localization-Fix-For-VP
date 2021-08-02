@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (2) Community Balance Overhaul/Balance Changes/Text/es_ES/TerrainText.xml -->
+<GameData>
+	<Language_es_ES>
+		
+		
+
+
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_HORSE">
+			<Text>[COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus:[ENDCOLOR] Units gain +10% [ICON_STRENGTH] Strength when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_IRON">
+			<Text>[COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus:[ENDCOLOR] Units gain +10% [ICON_STRENGTH] Strength when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_COAL">
+			<Text>[COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus:[ENDCOLOR] Naval Units gain +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_ALUMINUM">
+			<Text>[COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus:[ENDCOLOR] Units gain +5 HP when Healing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_OIL">
+			<Text>[COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus:[ENDCOLOR] Units gain +2 XP after combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_URANIUM">
+			<Text>[COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus:[ENDCOLOR] Units gain +10% [ICON_STRENGTH] Strength when attacking.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
+			<Text>You find a cache of supplies that boost the [ICON_PRODUCTION] Production of your nearest city!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLDEN_AGE">
+			<Text>You find ancient relics that accelerate your civilization's progress towards a [ICON_GOLDEN_AGE] Golden Age!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TILES">
+			<Text>You find a nomadic tribe that wishes to join your Civilization, granting you additional land around the nearest City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
+			<Text>Supplies for [ICON_PRODUCTION] Production in your nearest City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLDEN_AGE">
+			<Text>Relics for [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
+			<Text>A tribe that gives you land around your nearest City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_TITLE">
+			<Text>Golden Age Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_BODY">
+			<Text>The ruin contains relics, that grant Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_ADV_QUEST">
+			<Text>Golden Age Points?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_TITLE">
+			<Text>Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_BODY">
+			<Text>The ruin contains supplies, that grant Production to your nearest city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_ADV_QUEST">
+			<Text>Production?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_TITLE">
+			<Text>Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_BODY">
+			<Text>The ruin contains settlers, that grant free Tiles to your nearest city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_ADV_QUEST">
+			<Text>Tiles?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_GLOBAL">
+			<Text>[COLOR_CYAN]Your current Global Monopoly Bonus:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_GLOBAL_AND_STRATEGIC">
+			<Text>[COLOR_CYAN]Your current Global and Strategic Monopoly Bonuses:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_YOU_GAIN_STRATEGIC">
+			<Text>[COLOR_CYAN]Your current Strategic Monopoly Bonus:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_BOTH">
+			<Text>[COLOR_NEGATIVE_TEXT]Their current Strategic and Global Monpoly Bonuses:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_GLOBAL">
+			<Text>[COLOR_NEGATIVE_TEXT]Their current Global Monopoly Bonus:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_THEY_GAIN_STRATEGIC">
+			<Text>[COLOR_NEGATIVE_TEXT]Their current Strategic Monopoly Bonus:[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POTENTIAL">
+			<Text>Potential Global Monopoly Bonus:[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POTENTIAL_STRATEGIC">
+			<Text>Potential Strategic and Global Monopoly Bonuses:[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN">
+			<Text>Out of {2_Total} in World:[NEWLINE]Direct control: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN_IMPORTS">
+			<Text>Out of {2_Total} in World:[NEWLINE]Direct control: {1_Num}[NEWLINE]Import: {3_Import}[NEWLINE]From City-States: {4_CS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HOVER_INFO">
+			<Text>(Hover over Corporation Icon or Name for details.)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_OTHER">
+			<Text>({2_CivName}) {1_Monopoly}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CONTROLLED">
+			<Text>Our Potential Monopolies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_GAINED">
+			<Text>You control over 50% of the World's [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], and therefore have a Global Monopoly![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_GAINED">
+			<Text>Global Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_MONOPOLY_GAINED">
+			<Text>{3_CivName} {3_CivName: plural 1?controls; other?control;} over 50% of the World's [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], and therefore has a Global Monopoly![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_MONOPOLY_GAINED">
+			<Text>{2_CivName} {2_CivName: plural 1?has; other?have;} a Global Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_LOST">
+			<Text>You [COLOR_NEGATIVE_TEXT]no longer have[ENDCOLOR] a Global Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]![NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost:[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_LOST">
+			<Text>Lost Global Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_MONOPOLY_RESOURCE">
+			<Text>[NEWLINE][ICON_BULLET]Modifier from Resource Monopoly: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_HAPPINESS">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +6 [ICON_HAPPINESS_1] Happiness added to Empire-Wide Luxury value</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_GA_LENGTH">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +25% [ICON_GOLDEN_AGE] Golden Age Length, +2 [ICON_GOLDEN_AGE] Golden Age Points from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +2 [ICON_PRODUCTION] Production from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +3 [ICON_GOLD] Gold from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_FOOD">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +3 [ICON_FOOD] Food from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_CULTURE">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +2 [ICON_CULTURE] Culture from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_FAITH">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +2 [ICON_PEACE] Faith from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +2 [ICON_RESEARCH] Science from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +10% [ICON_PRODUCTION] Production in all owned Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_GOLD">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +10% [ICON_GOLD] Gold in all owned Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_FOOD">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +10% [ICON_FOOD] Food in all owned Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_CULTURE">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +10% [ICON_CULTURE] Culture in all owned Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +10% [ICON_RESEARCH] Science in all owned Cities.</Text>
+		</Row>
+
+		<!-- Strategic Help-->
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION_ALUMINUM">
+			<Text>Used by powerful late-game Units and Buildings.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus (25%):[ENDCOLOR] Units gain +5 HP when Healing.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Global Monopoly Bonus (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] Production from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD_COAL">
+			<Text>Used by powerful mid-game Units and Buildings.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus (25%):[ENDCOLOR] Naval Units gain +1 [ICON_MOVES] Movement.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Global Monopoly Bonus (50%):[ENDCOLOR] +3 [ICON_GOLD] Gold from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_OIL">
+			<Text>Used by powerful late-game Units and Buildings.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus (25%):[ENDCOLOR] Units gain +2 XP after combat.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Global Monopoly Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Science from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_HORSE">
+			<Text>Used by powerful Units.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus (25%):[ENDCOLOR] Units gain +10% [ICON_STRENGTH] Strength when attacking.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Global Monopoly Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Science from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION_IRON">
+			<Text>Used by powerful Units throughout the game.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus (25%):[ENDCOLOR] Units gain +10% [ICON_STRENGTH] Strength when defending.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Global Monopoly Bonus (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] Production from Resource tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
+			<Text>Used to build terrifying weapons of mass destruction.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Monopoly Bonus (25%):[ENDCOLOR] Units gain +10% [ICON_STRENGTH] Strength when attacking.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Global Monopoly Bonus (50%):[ENDCOLOR] +10% [ICON_RESEARCH] Science in all owned Cities.</Text>
+		</Row>
+
+		<!-- Tooltip for Strategic Monopolies -->
+		<Row Tag="TXT_KEY_NOTIFICATION_STRATEGIC_MONOPOLY_GAINED">
+			<Text>You control over 25% of the World's [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], and therefore have a Strategic Monopoly![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STRATEGIC_MONOPOLY_GAINED">
+			<Text>Strategic Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_STRATEGIC_MONOPOLY_GAINED">
+			<Text>{3_CivName} {3_CivName: plural 1?controls; other?control;} over 25% of the World's [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], and therefore has a Strategic Monopoly![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_STRATEGIC_MONOPOLY_GAINED">
+			<Text>{2_CivName} {2_CivName: plural 1?has; other?have;} a Strategic Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_STRATEGIC_MONOPOLY_LOST">
+			<Text>You [COLOR_NEGATIVE_TEXT]no longer have[ENDCOLOR] a Strategic Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]![NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Lost:[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STRATEGIC_MONOPOLY_LOST">
+			<Text>Lost Strategic Monopoly on [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+
+		<!-- Tooltip for Monopolies -->
+		<Row Tag="TXT_KEY_FOODMOD_MONOPOLY_RESOURCE">
+			<Text>[NEWLINE][ICON_BULLET][ICON_TRADE_WHITE] Resource Monopolies Modifier: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_RESOURCE_MONOPOLY">
+			<Text>+{1_Num}% [ICON_CULTURE] for Resource Monopolies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_RESOURCE_MONOPOLY">
+			<Text>+{1_Num}% [ICON_PEACE] from Resource Monopolies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONOPOLIES_TT">
+			<Text>Global Resource Monopolies are achieved when you control over 50% of a Luxury or Strategic Resource. This value can exceed 100% if you produce more of a Resource than exists on the Map. More than one Civilization can, therefore, have a Global Monopoly (though this is quite rare).</Text>
+		</Row>
+	</Language_es_ES>
+</GameData>

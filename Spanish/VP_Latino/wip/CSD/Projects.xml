@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/2/2014 10:59:14 PM -->
+<GameData>
+	<Language_es_ES>
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET">
+			<Text>Treasure Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Treasure Fleet project. Cost goes up based on the number of players in the game, and the current Era.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET">
+			<Text>Treasure Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET_HELP">
+			<Text>Begins the Treasure Fleet project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET">
+			<Text>Treasure Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET_SPLASH">
+			<Text>Admirals, navigators, sailors, and shipbuilders from around the world are gathering resources to create a Treasure Fleet, the largest and most prestigious fleet of ships ever made.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1">
+			<Text>Prize Shipbuilder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP">
+			<Text>Receive one Frigate. 300 points towards next [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2">
+			<Text>Skilled Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP">
+			<Text>Receive a free Great Admiral and 3 of your military units will be maintenance-free.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3">
+			<Text>Master of the Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP">
+			<Text>Grand Canal wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_GRAND_CANAL_HELP})</Text>
+		</Row>
+		<!-- Wargames -->
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES">
+			<Text>Global Wargames</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Global Wargames project. Cost goes up based on the number of players in the game, and the current Era.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES">
+			<Text>Global Wargames</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES_HELP">
+			<Text>Begins the Global Wargames project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP} [NEWLINE][NEWLINE]Available once any Civilization discovers Replaceable Parts.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WARGAMES">
+			<Text>Global Wargames</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WARGAMES_SPLASH">
+			<Text>The militaries and military officers of the world's empires have assembled to highlight their fighting prowess and to make a claim to global preeminence.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1">
+			<Text>Colonel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP">
+			<Text>Receive one Infantry and 3 of your military units will be maintenance-free.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2">
+			<Text>Major General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP">
+			<Text>Receive a +25% attack bonus to all Military Units for the next 30 turns and 4 of your military units will be maintenance-free.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3">
+			<Text>Field Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP">
+			<Text>Menin Gate wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_MENIN_GATE_HELP})</Text>
+		</Row>
+		<!-- UNITED_NATIONS -->
+		
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS">
+			<Text>United Nations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the United Nations project. Cost goes up based on the number of players in the game, and the current Era.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS">
+			<Text>United Nations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS_HELP">
+			<Text>Begins the United Nations project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP} [NEWLINE][NEWLINE]Available once any Civilization discovers Atomic Theory.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS">
+			<Text>United Nations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS_SPLASH">
+			<Text>A new era in global diplomacy and international relations has dawned. Delegates, officials and dignitaries from around the world have gathered to celebrate the construction of the United Nations, and with it the future of the human race.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1">
+			<Text>High Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP">
+			<Text>Receive a free Great Diplomat.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2">
+			<Text>Permanent Member</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP">
+			<Text>Receive an immediate boost of 25 [ICON_INFLUENCE] Influence with all City-States. The Consulate National Wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_CONSULATE_HELP})</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3">
+			<Text>Secretary-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP">
+			<Text>United Nations wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_UN_HELP})</Text>
+		</Row>
+		
+	</Language_es_ES>  
+</GameData>

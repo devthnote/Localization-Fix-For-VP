@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="42F6CBAA-03CC-9B13-8086-72A308A0414F" version="3">
+  <Properties>
+    <Name>Localization Fix for VP</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Fix wrong data on VP mods for localizated Installs</Teaser>
+    <Description>Adds all new text strings from Vox Populi Mods to your language database, so you can see all true descriptions on buildings, policies, tech, etc.</Description>
+    <Authors>Pablo Peña</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>1</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5f7e81e0f94e05b85c2aa01553d63385" import="0">UI/game_options.sql</File>
+    <File md5="098e5a39aa3201bb147125e74622085d" import="0">Text/buildings.sql</File>
+    <File md5="d841e09549b060661071d378a5999623" import="0">Text/city_state.sql</File>
+    <File md5="82b7e8c7895defdcb8bce2c4ccfb5d32" import="0">Text/civilopedia.sql</File>
+    <File md5="15cdd609d8cdb728b6b762b7eb48718c" import="0">Text/civs.sql</File>
+    <File md5="9ff28473927caaa05a586682fced138d" import="0">Text/diplomacy.sql</File>
+    <File md5="5af8fbd368347e1dc65d29cb2d9e8d15" import="0">Text/espionage.sql</File>
+    <File md5="9656f11bdbecce5d4cbe4cd62e1cb1c2" import="0">Text/great_works.sql</File>
+    <File md5="4ffd6b7dc8442c068e7537f05baddab9" import="0">Text/notifications.sql</File>
+    <File md5="41b2ea99bd2350e28527dfc537cac054" import="0">Text/policies.sql</File>
+    <File md5="81e24fb67f3c809605f8b6e4a03a2b5a" import="0">Text/religion.sql</File>
+    <File md5="30c4ba91925549cf2b957f17d2732380" import="0">Text/ruinsMsgs.sql</File>
+    <File md5="c4a6fe6c2433b00196b828ad2537c864" import="0">Text/spy_names.sql</File>
+    <File md5="49c5046d8504f586c87044ebac2846ba" import="0">Text/tech.sql</File>
+    <File md5="2f8ea5e8bb1b4c5a754ca9c7f4e1051b" import="0">Text/units.sql</File>
+    <File md5="49b4bd0bea20bbe39cf5256f0f108703" import="0">UI/cityUI.sql</File>
+
+  <!--Work In Progress-->
+    
+    <File md5="607b3d4459bef8c6833c9959f962b856" import="0">wip/CP-CBO/NewText.xml</File>
+    <File md5="92c099e7b1efb8d65d3a9664366eb7d8" import="0">wip/CP-CBO/notifications.xml</File>
+    <File md5="9f129963b2fc3f519d1d0d9a4492fd6a" import="0">wip/CP-CBO/OtherText.sql</File>
+    <File md5="574a6c3f59330c57b1fe3e78d48c189c" import="0">wip/CP-CBO/PromotionText.sql</File>
+    <File md5="2628207b1262b933cd66ef47f1781068" import="0">wip/CP-CBO/TerrainText.xml</File>
+    <File md5="674995d13c92bef533ce0aee0dde9a4f" import="0">wip/CP-CBO/TextChanges.sql</File>
+    <File md5="9b193abe66a38a4e7663ba2fbf28fb04" import="0">wip/CP-CBO/trade.sql</File>
+    <File md5="cdba3dcc7790e33f4b5851552b23e7eb" import="0">wip/CP-CBO/UIText.sql</File>
+    <File md5="66355abeff0318d747581609c31f107c" import="0">wip/CP-CBO/UIText.xml</File>
+    <File md5="9ded01cdf85f829471e8c515b680618f" import="0">wip/CP-CBO/UnitclassNotUnit.xml</File>
+    <File md5="1206fe0adbaabfe79892a86d1809d066" import="0">wip/CP-CBO/UnitText.sql</File>
+    <File md5="2f5a69797521bb87ba3bae60532949d9" import="0">wip/CP-CBO/UnitText.xml</File>
+    <File md5="88f0ec39c7451e3946987595c5c56203" import="0">mods/ArchaeologistUIMods/MiniMapPanelText.xml</File>
+    <File md5="175dbeb4fbb7d6d40990f88517132a6b" import="0">mods/ArchaeologistUIMods/UIAntiquities.xml</File>
+    <File md5="b5da1fa2ed3fcb3e8cb40aee1de0e67a" import="0">mods/Corporations/CorporationOverviewText.xml</File>
+    <File md5="ac189e706e48d5cb4748a057e641a1ba" import="0">mods/Corporations/CorpText.xml</File>
+    <File md5="50feac5dbe725d9dc88b8b13bc9fa932" import="0">mods/Events/EventText_en_US.xml</File>
+    <File md5="f353e758a4dfa8b5351ab1b2f4d19429" import="0">mods/TradeUIMod/GlobalcityStatesGifts.xml</File>
+    <File md5="5c1d162f7d5c2b7ca1cd9d7b9f7cafce" import="0">mods/TradeUIMod/UITradeRoutesEnhancements.xml</File>
+
+    <!-- More WiP -->
+    <File md5="0cc70b7a5d4176e5cbb47e69767fa8f5" import="0">wip/C4DF/en_US_Text_CivilopediaC4DF.xml</File>
+    <File md5="2fbcc4e2ccf323bcb2735289b949f3bc" import="0">wip/C4DF/en_US_Text_Generic_DiplomacyC4DF.xml</File>
+    <File md5="d8622ddf3aff737de8516f611f9e4224" import="0">wip/C4DF/en_US_Text_UIC4DF.xml</File>
+    <File md5="c87726ea9b11b3e5aa30e10231ab8092" import="0">wip/CSD/Build.xml</File>
+    <File md5="bbf2cbc060f752a631750c85875a39be" import="0">wip/CSD/BuildingRules.sql</File>
+    <File md5="86aeee929ee19b9c34c5b11d09504b23" import="0">wip/CSD/BuildingText.xml</File>
+    <File md5="b78b23a527de421549f47303d40b6e84" import="0">wip/CSD/CityStateQuest.xml</File>
+    <File md5="a253b6e94193f549559b04165910da2d" import="0">wip/CSD/CivilServant.xml</File>
+    <File md5="75cf1636504de234fc92924a9d745698" import="0">wip/CSD/Congress.xml</File>
+    <File md5="a071353f5f0ce5953f44be1d22677737" import="0">wip/CSD/DiploBuildingText.sql</File>
+    <File md5="aa2f9fd7f1831e41d53edd6cacbc9ba1" import="0">wip/CSD/GameplayText.sql</File>
+    <File md5="cd40daa02b3fb9d38bc80cf9b1eead50" import="0">wip/CSD/GreatDiplomats.xml</File>
+    <File md5="7b3035793759dbb0fb48c4ceb3e522a9" import="0">wip/CSD/IdeologyChanges.sql</File>
+    <File md5="33631dc8f362d25c072ffd4dc1082815" import="0">wip/CSD/ImprovementText.xml</File>
+    <File md5="7302b3506e2085fee0b61ca9df2a5e53" import="0">wip/CSD/Paper.xml</File>
+    <File md5="ac7848d171721e3b82460d85329bcbfe" import="0">wip/CSD/Projects.xml</File>
+    <File md5="c7bb92bb60f1cfffefd51c863c6f063f" import="0">wip/CSD/PromotionText.xml</File>
+    <File md5="027915b386833c0f4cb31b21e11dfb49" import="0">wip/CSD/UnitText.xml</File>
+    <File md5="704b021d6ba3ae12a11d2d0bbecfd35a" import="0">wip/CSD/VanillaBuildingChanges.sql</File>
+    <File md5="005b64a46992095817e394cacc32221a" import="0">wip/euicomp/C4DFCompatibility.sql</File>
+    <File md5="3e902f9fdf439b3d2ddfbbadd37501c2" import="0">wip/euicomp/CorpText_en_US.sql</File>
+    <File md5="01ce9d5825420c33ad16ea4060655e22" import="0">wip/euicomp/CorpText_en_US.xml</File>
+    <File md5="70c6587e1f26225d08bf423f2acc6d67" import="0">wip/euicomp/CSDCompatibility_en_US.sql</File>
+    <File md5="0885f9d1ee63bbdc244953d13a7a06b6" import="0">wip/euicomp/CSDCompatibility_en_US.xml</File>
+    <File md5="8f75fe968478d0645663bff81d8506ae" import="0">wip/euicomp/EUI_text_en_us.xml</File>
+    <File md5="91b4ff48a80cd03c8b72ca6e2165082f" import="0">wip/euicomp/NeededText.xml</File>
+    <File md5="f07babc20b0d31e583819bb10ccae210" import="0">wip/euicomp/Text_en_US.sql</File>
+    <File md5="5f7e81e0f94e05b85c2aa01553d63385" import="0">wip/NewLuxuries_Text.xml</File>
+    <File md5="9d5eea7904a9585d2a39dddf08b39d80" import="0">wip/UIPromotionTree.xml</File>
+    <File md5="281a29bf2d1b65ee8c9aef8762fc9b09" import="0">wip/wip_more.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>UI/game_options.sql</UpdateDatabase>
+      <UpdateDatabase>Text/buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Text/city_state.sql</UpdateDatabase>
+      <UpdateDatabase>Text/civilopedia.sql</UpdateDatabase>
+      <UpdateDatabase>Text/civs.sql</UpdateDatabase>
+      <UpdateDatabase>Text/diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Text/espionage.sql</UpdateDatabase>
+      <UpdateDatabase>Text/great_works.sql</UpdateDatabase>
+      <UpdateDatabase>Text/notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Text/policies.sql</UpdateDatabase>
+      <UpdateDatabase>Text/religion.sql</UpdateDatabase>
+      <UpdateDatabase>Text/ruinsMsgs.sql</UpdateDatabase>
+      <UpdateDatabase>Text/spy_names.sql</UpdateDatabase>
+      <UpdateDatabase>Text/tech.sql</UpdateDatabase>
+      <UpdateDatabase>Text/units.sql</UpdateDatabase>
+
+      <UpdateDatabase>UI/cityUI.sql</UpdateDatabase>
+
+
+      <UpdateDatabase>wip/CP-CBO/NewText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/notifications.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/OtherText.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/PromotionText.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/TerrainText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/TextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/trade.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/UIText.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/UIText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/UnitclassNotUnit.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/UnitText.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CP-CBO/UnitText.xml</UpdateDatabase>
+      <UpdateDatabase>mods/ArchaeologistUIMods/MiniMapPanelText.xml</UpdateDatabase>
+      <UpdateDatabase>mods/ArchaeologistUIMods/UIAntiquities.xml</UpdateDatabase>
+      <UpdateDatabase>mods/Corporations/CorporationOverviewText.xml</UpdateDatabase>
+      <UpdateDatabase>mods/Corporations/CorpText.xml</UpdateDatabase>
+      <UpdateDatabase>mods/Events/EventText_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>mods/TradeUIMod/GlobalCityStatesGifts.xml</UpdateDatabase>
+      <UpdateDatabase>mods/TradeUIMod/UITradeRoutesEnhancements.xml</UpdateDatabase>
+
+      <UpdateDatabase>wip/wip_more.sql</UpdateDatabase>
+
+
+      <!-- More WiP -->
+      <UpdateDatabase>wip/C4DF/en_US_Text_CivilopediaC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>wip/C4DF/en_US_Text_Generic_DiplomacyC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>wip/C4DF/en_US_Text_UIC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/Build.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/BuildingRules.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/BuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/CityStateQuest.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/CivilServant.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/Congress.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/DiploBuildingText.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/GameplayText.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/GreatDiplomats.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/IdeologyChanges.sql</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/ImprovementText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/Paper.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/Projects.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/PromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/UnitText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/CSD/VanillaBuildingChanges.sql</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/C4DFCompatibility.sql</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/CorpText_en_US.sql</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/CorpText_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/CSDCompatibility_en_US.sql</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/CSDCompatibility_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/EUI_text_en_us.xml</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/NeededText.xml</UpdateDatabase>
+      <UpdateDatabase>wip/euicomp/Text_en_US.sql</UpdateDatabase>
+      <UpdateDatabase>wip/NewLuxuries_Text.xml</UpdateDatabase>
+      <UpdateDatabase>wip/UIPromotionTree.xml</UpdateDatabase>
+      
+    </OnModActivated>
+  </Actions>  
+</Mod>

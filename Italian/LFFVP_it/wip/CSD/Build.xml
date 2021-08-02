@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/21/2014 12:19:12 PM -->
+<GameData>
+	<Language_it_IT>
+		<Row Tag="TXT_KEY_BUILD_EMBASSY">
+			<Text>Construct an [LINK=IMPROVEMENT_EMBASSY]Embassy[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
+			<Text>Unit will be consumed.[NEWLINE][NEWLINE]This Great Tile Improvement cannot be built on top of Strategic or Luxury Resources. Grants [COLOR_POSITIVE_TEXT]1 World Congress Vote[ENDCOLOR] when constructed.</Text>
+		</Row>
+	</Language_it_IT>
+</GameData>
